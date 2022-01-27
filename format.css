@@ -19,6 +19,7 @@ h1 span{
 .globalNavi{
     text-align: center;
     margin-bottom: 50px;
+    
     }
 
 .globalNavi li {
@@ -26,7 +27,7 @@ h1 span{
     margin-right: 40px;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;          
     }
 
 .globalNavi li:last-child {
@@ -45,7 +46,8 @@ h1 span{
 }
 
 .aboutSection,
-.newsSection{
+.newsSection,
+.googleMap{               
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
@@ -104,6 +106,7 @@ h1 span{
 .newsSection table{
     border-top: 1px solid #dddddd;
     width: 100%;
+    margin-bottom: 50px;
     }
 .newsSection th{
     font-family: 'Oswald', sans-serif;
@@ -120,7 +123,27 @@ h1 span{
     padding-bottom: 15px;
     padding-top: 15px;
     width: 90%;
+   
 }
+
+
+.googleMap{
+    position:relative;
+    padding-bottom:33%;
+    height:0;
+    overflow:hidden
+}
+.googleMap iframe{
+    position: absolute;
+    width: 320px;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+
+
+
 .githubBt {
 width: 200px;
 margin-top: 30px;
